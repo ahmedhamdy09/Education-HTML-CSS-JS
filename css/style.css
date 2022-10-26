@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .container {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.logos {
+    color: blue;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 50px;
+}
+ ul li a {
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+ ul li a:hover, .active {
+    background: #fff;
+    color: #fe0e0e;
+}
+
+
+.main-btn {
+    width: 7%;
+    background-color: #6495ED;
+    color: #000;
+    padding: 5px;
+    align-items: center;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.main-btn:hover {
+    background-color: #fff;
+    color: #200016;
+    transition: 0.6s ease;
+}
+
+
+
+.main-container {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    margin: auto;
+    background-color: #000ff0;
+    background: url(../img/header.jpg)no-repeat;
+    background-size: cover;
+    /* background-position: top;
+    background-attachment: fixed ; */
+    opacity: 0.8;
+}
+
+.logo {
+    color: #f1f2fb;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
+}
+
+
+
+
+/* img {
+    width: 100%;
+    opacity: 0.4;
+    background: url(../img/header.jpg)no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed ;
+} */
+
+input{
+    width: 200px;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button{
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    margin-left: -12px;
+    border-radius: 5px;
+    font-weight: bold;
+    }
+button:hover {
+    color: rgb(228, 185, 13);
+    transition: 0.9s ease;
+}    
+
+.container-card {
+    padding: 40px;
+    margin: 40px;
+} 
+
+img {
+    width: 25% !important;
+    height: 25% !important;
+    vertical-align: middle;
+}
+
+.container-card .about-us{
+    position: relative !important;
+}
+
+.container-card .about-us h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 32px;
+    color: #fe0e0e;
+    padding: 5px;
+    margin: auto;
+}
+
+.container-card .about-us h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.container-card .about-us p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #200016;
+    color: #f1f2fb;
+    text-align: center;
+    align-items: center;
+}
